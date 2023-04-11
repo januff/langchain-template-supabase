@@ -72,7 +72,7 @@ export default function Home() {
         >
           <input
             type="text"
-            placeholder="Ask anything..."
+            placeholder="Ask a thing..."
             style={{ padding: 5, width: 200, marginBottom: 10 }}
             value={input}
             onChange={(e) => setInput(e.target.value)}
